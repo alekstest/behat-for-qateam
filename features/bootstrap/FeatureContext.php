@@ -1,13 +1,16 @@
 <?php
 
-use \Drupal\DrupalExtension\Context\MinkContext;
+use Drupal\DrupalExtension\Context\MinkContext;
+
 use Behat\Gherkin\Node\PyStringNode,
     Behat\Gherkin\Node\TableNode;
+
+use Behat\Behat\Context\SnippetAcceptingContext;
 
 /**
  * Features context
  */
-class FeatureContext extends MinkContext
+class FeatureContext extends MinkContext implements SnippetAcceptingContext 
 {
     /**
      * @Given I am on the :arg1
