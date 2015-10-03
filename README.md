@@ -10,7 +10,7 @@ For setup the invironment:
 * change rights for the project folder:
 * <code>**sudo chmod 777 -R {youDirectoryNameWithoutQuotes}/**</code>
 * create feature folder with this command:
-* <code>**behat --init**</code>
+* <code>**bin/behat --init**</code>
 * replace file FeatureContext.php in bootstrap directory with current one (which placed on this repo)
 * add current feature file in the features/ folder (which placed on this repo)
 * add current behat.yml file in the root folder (which placed on this repo)
