@@ -8,7 +8,7 @@ For setup the invironment:
 * <code>**curl -sS https://getcomposer.org/installer | php**</code>
 * <code>**php composer.phar install**</code>
 * change rights for the project folder:
-* <code>**sudo chmod 777 - R {youDirectoryNameWithoutQuotes}/**</code>
+* <code>**sudo chmod 777 -R {youDirectoryNameWithoutQuotes}/**</code>
 * create feature folder with this command:
 * <code>**behat --init**</code>
 * replace file FeatureContext.php in bootstrap directory with current one (which placed on this repo)
