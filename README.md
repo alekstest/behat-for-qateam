@@ -17,5 +17,5 @@ For setup the invironment:
 * download Selenium Standalone Server http://www.seleniumhq.org/download/ and move it into the project folder
 * run server from the folder where you placed it with this command:
 * <code>**java - jar selenium-server-standalone-2.xx.x.jar</code>** (instead of **xx.x** you should put actual numbers from current version of server)
-- run tests with this command:
-> <code>**bin/behat**</code>
+* run tests with this command:
+* <code>**bin/behat**</code>
