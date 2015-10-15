@@ -1,6 +1,9 @@
 default:
   suites:
     default:
+      paths:
+        features: features
+        bootstrap: bootstrap
       contexts:
         - FeatureContext
         - Drupal\DrupalExtension\Context\MessageContext
