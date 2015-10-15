@@ -1,16 +1,20 @@
 <?php
 
-use Drupal\DrupalExtension\Context\MinkContext;
-
-use Behat\Gherkin\Node\PyStringNode,
-    Behat\Gherkin\Node\TableNode;
-
+use Drupal\DrupalExtension\Context\MinkContext as MinkContext;
 use Behat\Behat\Context\SnippetAcceptingContext;
 
+use Behat\Gherkin\Node\PyStringNode;
+use Behat\Gherkin\Node\TableNode;
+//
+// Require 3rd-party libraries here:
+//
+//   require_once 'PHPUnit/Autoload.php';
+//   require_once 'PHPUnit/Framework/Assert/Functions.php';
+//
 /**
- * Features context
+ * Feature context.
  */
-class FeatureContext extends MinkContext implements SnippetAcceptingContext 
+class FeatureContext extends MinkContext implements SnippetAcceptingContext
 {
     /**
      * @Given I am on the :arg1
